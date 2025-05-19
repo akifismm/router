@@ -12,18 +12,18 @@ function App() {
     <>
 
    <div className='pages'>
-    <NavLink to='/'>Home</NavLink>
-    <NavLink to='/about'>About</NavLink>
-    <NavLink to='/excamples'>Excamples</NavLink>
-    <NavLink to='/contact'>Contact</NavLink>
+    <NavLink to='/router/'>Home</NavLink>
+    <NavLink to='/router/about'>About</NavLink>
+    <NavLink to='/router/excamples'>Excamples</NavLink>
+    <NavLink to='/router/contact'>Contact</NavLink>
 
    </div>
 
     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/excamples' element={<Excamples />} />
-      <Route path='/contact' element={<Contact />} />
+      <Route path='/router/' element={<Home />} />
+      <Route path='/router/about' element={<About />} />
+      <Route path='/router/excamples' element={<Excamples />} />
+      <Route path='/router/contact' element={<Contact />} />
       
     </Routes>
     
